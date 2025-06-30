@@ -90,6 +90,38 @@ header {
     display: flex;
   }
 }
+.search-box {
+  display: flex;
+  flex: 1;
+  max-width: 500px;
+  margin: 0 30px;
+  background: white;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  font-family: monospace;
+  outline: none;
+}
+
+.search-box button {
+  background: #0456db;
+  border: none;
+  padding: 0 25px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.search-box button:hover{
+    background:  #2cda71;
+}
 .h3{
   background-color:white;
   color: black;
@@ -153,15 +185,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.search-box {
-  background: #fff;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
-  max-width: 1200px;
-  width: 100%;
 }
 
 form {
@@ -333,7 +356,8 @@ button:hover {
     padding: 30px;
     border-radius: 10px;
 }
-.carousel-control-prev{
+
+.carousel-item-prev{
   padding: 12px 30px;
   background: #0e0e0e00;
   color: rgb(245, 244, 244);
@@ -460,28 +484,27 @@ h3 {
     }
 
     .footer1 a:hover {
-      color: #cd2323;
+      color: #0b9ef9;
     }
 
-    .footer1 .form-control {
+    .form-control {
       background-color: #1b1f39;
       border: none;
       color: #fff;
     }
 
-    .footer1 .form-control::placeholder {
+    .form-control::placeholder {
       color: #999;
     }
 
-    .footer1 .input-group-text {
+    .input-group-text {
       background-color: transparent;
       border: none;
       color: #fff;
     }
 
-    .footer1 .input-group {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    .input-group {
+      box-shadow: 0 8px 16px rgba(255, 255, 255, 0.783);
       border-radius: 8px;
       overflow: hidden;
     }
-  
